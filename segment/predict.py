@@ -8,8 +8,7 @@ import torch
 import torch.backends.cudnn as cudnn
 
 #..... Tracker modules......
-import skimage
-from sort_count import *
+from segment.sort_count import Sort
 import numpy as np
 #...........................
 
